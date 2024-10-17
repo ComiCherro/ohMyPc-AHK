@@ -1,11 +1,12 @@
-#Requires AutoHotkey v2.0
 \::{
+;this snippet here isnt mine, https://www.autohotkey.com/boards/viewtopic.php?t=10550
 start_time := A_TickCount
 time_to_run := 3500
 end_time := start_time + time_to_run
-SoundPlay(("OMP.mp3"))
+;end not my code
+SoundPlay(("OMP.mp3")) ;from https://memesoundeffects.com/oh-my-pc-sound-effect/
 WinGetPos(&X,&Y,&W,&H,"A")
-while (A_tickcount < end_time)
+while (A_tickcount < end_time) ;while logic isnt mine, same link above
 {
     try{
     X1:=Random(0,A_ScreenWidth) 
