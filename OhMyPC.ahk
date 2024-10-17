@@ -4,7 +4,7 @@ start_time := A_TickCount
 time_to_run := 3500
 end_time := start_time + time_to_run
 ;end not my code
-SoundPlay(("OMP.mp3")) ;from https://memesoundeffects.com/oh-my-pc-sound-effect/
+SoundPlay("OMP.mp3") ;from https://memesoundeffects.com/oh-my-pc-sound-effect/
 WinGetPos(&X,&Y,&W,&H,"A")
 while (A_tickcount < end_time) ;while logic isnt mine, same link above
 {
