@@ -1,4 +1,4 @@
-ohMyPc(){
+\::{
 start_time := A_TickCount
 time_to_run := 3500
 end_time := start_time + time_to_run
