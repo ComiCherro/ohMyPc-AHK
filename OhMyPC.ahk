@@ -1,3 +1,4 @@
+#Requires AutoHotkey v2.0
 \::{
 start_time := A_TickCount
 time_to_run := 3500
